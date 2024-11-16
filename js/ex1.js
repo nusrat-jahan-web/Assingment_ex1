@@ -137,10 +137,10 @@ document.getElementById("url_2").innerText = modifyAddress;
 
 // 2
 
-var getAddress =document.getElementById("url_3").innerText;
+var getAddress = document.getElementById("url_3").innerText;
 console.log(getAddress);
 
-var modifyAddress = ( getAddress.replace ( "https:// " , "") );
+var modifyAddress = ( getAddress.replace("https://" , "") ) ;
 console.log(modifyAddress);
 
 document.getElementById("url_4").innerText = modifyAddress;
