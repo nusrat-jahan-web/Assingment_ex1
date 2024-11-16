@@ -97,33 +97,9 @@ console.log(typeof temperature);
 
 
 
-
-//  show the url with https:// here
+// 8
 
 // 1
-
-// var getAddress ="www.udemy.com";
-// var modifyAddress = document.getElementById("url_1").innerText = getAddress;
-// console.log(modifyAddress);
-
-// var modifyAddress = "https://" +  getAddress;
-// document.getElementById("url_2").innerText = modifyAddress;
-
-
-
-// show the url without https:// here
-
-
-// 2
-
-// var getAddress =  "https://www.google.com "
- 
-// var modifyAddress= document.getElementById("url_3").innerText = getAddress;
-// console.log(modifyAddress);
-
-
-// var modifyAddress  =  ( getAddress.replace( "https:// " , " " ) );
-// document.getElementById("url_4").innerText = modifyAddress ;
 
 var getAddressFromWebsite = document.getElementById("url_1").innerText;
 console.log(getAddressFromWebsite);
